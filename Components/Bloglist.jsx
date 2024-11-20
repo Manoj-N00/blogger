@@ -10,6 +10,9 @@ const Bloglist = () => {
              <button>Technology</button>
              <button>Startup</button>
              <button>Lifestyle</button>
+        </div> 
+        <div>
+          
         </div>
         <div className='flex flex-wrap justify-around gap-1 gap-y-10 mb-16 xl:mx-24'>
            {blog_data.map((item,index)=>{
